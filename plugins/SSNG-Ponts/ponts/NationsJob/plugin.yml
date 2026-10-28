@@ -1,6 +1,0 @@
-name: NationsJob
-version: 1.0-compat
-main: fr.armersindustries.ssng.ponts.ponts.NationsJob
-description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "NationsJob".
-depend: [SSNG-Ponts]
-load: STARTUP

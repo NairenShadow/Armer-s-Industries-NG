@@ -1,7 +1,0 @@
-# SSNG-Machines (Armer's Industries) - fonctionne sans rien changer.
-# Monde ou construire la vitrine des machines (/machines vitrine) ; vide = monde principal
-monde-vitrine: ""
-machines:
-  nom-zone: Zone libre      # nom affiche dans les machines hors zone
-  petrole-zone: 1.0         # reserve affichee (0.0 a 1.0)
-  gaz-zone: 1.0

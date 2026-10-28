@@ -1,6 +1,0 @@
-name: NGCollection
-version: 1.0-compat
-main: fr.armersindustries.ssng.ponts.ponts.NGCollection
-description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "NGCollection".
-depend: [SSNG-Ponts]
-load: STARTUP

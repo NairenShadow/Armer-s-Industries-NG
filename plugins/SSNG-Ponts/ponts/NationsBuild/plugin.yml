@@ -1,6 +1,0 @@
-name: NationsBuild
-version: 1.0-compat
-main: fr.armersindustries.ssng.ponts.ponts.NationsBuild
-description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "NationsBuild".
-depend: [SSNG-Ponts]
-load: STARTUP

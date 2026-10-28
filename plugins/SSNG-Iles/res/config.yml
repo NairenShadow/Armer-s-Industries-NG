@@ -1,8 +1,0 @@
-# SSNG-Iles (Armer's Industries) - fonctionne sans rien changer.
-# Monde des iles (cree vide au premier demarrage)
-monde: iles
-iles:
-  max-par-joueur: 5        # l'interface NG en accepte 5
-  taille-max: 500          # l'interface propose 25, 50, 100, 250, 500
-  chunks-par-tick: 6       # vitesse de preparation du terrain
-  toutes-publiques: false  # true = toutes les iles ouvertes a la visite

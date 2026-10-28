@@ -1,9 +1,0 @@
-# SSNG-Carte (Armer's Industries) - fonctionne sans rien changer.
-carte:
-  zones: true             # afficher les zones sur la carte NG
-  voler-chunks: false     # true = un chunk deja dans une autre zone peut etre repris depuis la carte
-  # Fond de carte : adresse d'un Dynmap (ex. http://monserveur.fr:8123), vide = pas de fond
-  dynmap-url: ""
-  nom-serveur: "Mon serveur NG"
-# Grades utilises pour les droits de construction par chunk (permission ssng.grade.<nom>)
-grades: [Builder, Testeur, Moderateur, Admin]
