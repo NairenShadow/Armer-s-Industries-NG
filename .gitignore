@@ -1,0 +1,7 @@
+build/
+dist/
+libs/*.jar
+*.class
+.idea/
+*.iml
+.vscode/
