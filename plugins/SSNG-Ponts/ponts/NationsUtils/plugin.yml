@@ -1,0 +1,6 @@
+name: NationsUtils
+version: 1.0-compat
+main: fr.armersindustries.ssng.ponts.ponts.NationsUtils
+description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "NationsUtils".
+depend: [SSNG-Ponts]
+load: STARTUP

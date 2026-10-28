@@ -1,0 +1,19 @@
+name: SSNG-Assaut
+version: 1.0.0
+main: fr.armersindustries.ssng.assaut.AssautNG
+author: Armerdu59 (Armer's Industries)
+website: https://github.com/Armerdu59/ShadowState-NG
+description: L'assaut NationsGlory (HUD, zone de capture, colis, marqueurs) et les assauts entre nations, sur n'importe quel serveur NG.
+depend: [SSNG-Core]
+softdepend: [SSNG-Ponts]
+commands:
+  assaut:
+    description: Rejoindre ou quitter l'assaut
+    usage: /assaut <rejoindre|quitter|info|start|stop|testng>
+  assautadmin:
+    description: Regler l'arene d'assaut (admins)
+    usage: /assautadmin <monde|champ|attente|attaquants|defenseurs|kit|regle|voir>
+  nation:
+    description: Nations d'evenement et assaut grandeur nature (haut staff)
+    usage: /nation <liste|info|creer|supprimer|territoire|ajouter|retirer|assaut|stop> [nation]
+    aliases: [nations]

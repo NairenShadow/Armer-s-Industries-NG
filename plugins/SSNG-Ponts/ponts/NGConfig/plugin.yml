@@ -1,0 +1,6 @@
+name: NGConfig
+version: 1.0-compat
+main: fr.armersindustries.ssng.ponts.ponts.NGConfig
+description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "NGConfig".
+depend: [SSNG-Ponts]
+load: STARTUP

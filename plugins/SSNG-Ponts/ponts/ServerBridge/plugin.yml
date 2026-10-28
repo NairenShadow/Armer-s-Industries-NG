@@ -1,0 +1,6 @@
+name: ServerBridge
+version: 1.0-compat
+main: fr.armersindustries.ssng.ponts.ponts.ServerBridge
+description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "ServerBridge".
+depend: [SSNG-Ponts]
+load: STARTUP
