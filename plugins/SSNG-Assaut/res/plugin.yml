@@ -2,7 +2,7 @@ name: SSNG-Assaut
 version: 1.0.0
 main: fr.armersindustries.ssng.assaut.AssautNG
 author: Armerdu59 (Armer's Industries)
-website: https://github.com/Armerdu59/ShadowState-NG
+website: https://github.com/NairenShadow/Armer-s-Industries-NG
 description: L'assaut NationsGlory (HUD, zone de capture, colis, marqueurs) et les assauts entre nations, sur n'importe quel serveur NG.
 depend: [SSNG-Core]
 softdepend: [SSNG-Ponts]
