@@ -2,7 +2,7 @@ name: SSNG-Ressources
 version: 1.0.0
 main: fr.armersindustries.ssng.ressources.Ressources
 author: Armerdu59 (Armer's Industries)
-website: https://github.com/Armerdu59/ShadowState-NG
+website: https://github.com/NairenShadow/Armer-s-Industries-NG
 description: Gisements de petrole et de gaz par continent ou region pour les machines NationsGlory.
 depend: [SSNG-Core]
 softdepend: [SSNG-Ponts]
