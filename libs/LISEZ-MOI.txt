@@ -1,0 +1,3 @@
+Mets ici les .jar dont certains plugins ont besoin pour COMPILER (ils ne sont pas fournis, licences differentes) :
+- worldedit-5.6.jar (le meme que sur ton serveur NG) : pour SSNG-Iles.
+Le server.jar MCPC+ 1.6.4 de ton serveur NationsGlory se donne en argument a build.sh / build.ps1.

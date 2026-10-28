@@ -1,0 +1,6 @@
+name: NationsArcade2
+version: 1.0-compat
+main: fr.armersindustries.ssng.ponts.ponts.NationsArcade2
+description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "NationsArcade2".
+depend: [SSNG-Ponts]
+load: STARTUP

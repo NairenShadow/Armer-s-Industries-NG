@@ -1,0 +1,6 @@
+name: NationsStats
+version: 1.0-compat
+main: fr.armersindustries.ssng.ponts.ponts.NationsStats
+description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "NationsStats".
+depend: [SSNG-Ponts]
+load: STARTUP

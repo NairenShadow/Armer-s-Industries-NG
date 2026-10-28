@@ -1,0 +1,6 @@
+name: NationsBox
+version: 1.0-compat
+main: fr.armersindustries.ssng.ponts.ponts.NationsBox
+description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "NationsBox".
+depend: [SSNG-Ponts]
+load: STARTUP

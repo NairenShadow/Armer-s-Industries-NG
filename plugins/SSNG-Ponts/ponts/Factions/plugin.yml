@@ -1,0 +1,6 @@
+name: Factions
+version: 1.0-compat
+main: fr.armersindustries.ssng.ponts.ponts.Factions
+description: Pont SSNG-Ponts (Armer's Industries) remplacant le plugin prive NationsGlory "Factions".
+depend: [SSNG-Ponts]
+load: STARTUP

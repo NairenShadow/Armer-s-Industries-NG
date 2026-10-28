@@ -1,0 +1,171 @@
+Factions.get(Object) -> Null
+Factions.get(Object, double, long) -> Void
+Factions.getFactionFromPlayer(String) -> String
+Factions.getFlagFromName(String) -> String
+Factions.onChunkCopyComplete(String, String) -> Void
+Factions.onChunkCopyComplete(String, String, String) -> Void
+HawkEye.logInvDiff(int, int, int, HashMap, String) -> Void
+HawkEye.logTransactionAsCustom(int, int, int, String, String, String, String) -> Void
+HawkEye.parseBlockInventory(int, int, int) -> Map
+NGCollection.getTextureIndex() -> Null
+NGConfig.saveRagdollItemGrip(String, String) -> Boolean
+NationsAlliance.addAlliancePrestige(String, String) -> Void
+NationsAlliance.getEnergy() -> Null
+NationsAlliance.getInstance() -> List
+NationsAlliance.getInstance(double, double, double) -> Null
+NationsAlliance.getInstance(UUID) -> Null
+NationsArcade2.canPlayerShootOnPlayer(String, String) -> Boolean
+NationsBattle.getAssaultAtPosition(int, int) -> Null
+NationsBox.getLootFromLootboxName(String, String, String) -> Json
+NationsBuild.canPlayerShootOnPlayer(String, String) -> Boolean
+NationsBuild.captureZone(String, ArrayList) -> Void
+NationsBuild.changePlateTeam(String, int, int, int, String, boolean) -> String
+NationsBuild.checkPermission(String, String, String) -> Boolean
+NationsBuild.footGetScores(String) -> Map
+NationsBuild.footGoal(String, int, int, int, List, String) -> Void
+NationsBuild.isMissileAuthorized(String, String, int, int, int, int) -> Boolean
+NationsBuild.playerJoinTeam(String, String, String) -> Void
+NationsBuild.removePlateTeam(String, int, int, int, String) -> String
+NationsEvent.savePlayerCollectEventPoint(String, int, int, int, String, String) -> Boolean
+NationsGUI.addCountryFactionLogs(String, List) -> Void
+NationsGUI.addEventPoint(String, int, int, int, String) -> Null
+NationsGUI.addHalloweenPoints(String, String, Integer) -> Void
+NationsGUI.addMissingTranslation(String) -> Void
+NationsGUI.addMoney(String, int) -> Void
+NationsGUI.addSkinToPlayer(String, String) -> Void
+NationsGUI.applyFagTicketValidity(String) -> Void
+NationsGUI.applySurcharge(String, String, int) -> Void
+NationsGUI.applyToxicityTax(String, int) -> Integer
+NationsGUI.arePlayersFriendly(String, String) -> Boolean
+NationsGUI.arePlayersFriendlyByName(String, String) -> Boolean
+NationsGUI.calculateSurcharge(String, String, int) -> Double
+NationsGUI.canPlayerCombatPlayer(String, String) -> Boolean
+NationsGUI.canPlayerContractContagious(String) -> Boolean
+NationsGUI.canPlayerInteractBlock(String, int, int, int) -> Boolean
+NationsGUI.canPlayerModifyBlock(String, int, int, int, String) -> Boolean
+NationsGUI.canPlayerOpenLootbox(String, int, int, int, String) -> Boolean
+NationsGUI.canPlayerOpenPostbox(String, String) -> Boolean
+NationsGUI.canPlayerPlaceBlock(String, int, int, int, String) -> Boolean
+NationsGUI.canPlayerPlaceTag(String, int, int, int, String) -> Boolean
+NationsGUI.canPlayerUseSpecialAttack(String, int, int, int, String) -> Boolean
+NationsGUI.checkCanOpenMarket(String, boolean) -> String
+NationsGUI.checkCanOpenMarketByType(String, String) -> String
+NationsGUI.checkInCombatOrAssault(String) -> String
+NationsGUI.checkPermission(String, String) -> Boolean
+NationsGUI.dealBukkitDamage(String, double) -> Boolean
+NationsGUI.decideCenter(String, int, int) -> Boolean
+NationsGUI.depositPlayer(String, double) -> Void
+NationsGUI.dispatchConsoleCommand(String) -> Void
+NationsGUI.economyAddPendingValue(String, int) -> Void
+NationsGUI.executeNpcCommand(String, String) -> Boolean
+NationsGUI.executePlayerCmd(String, String) -> Void
+NationsGUI.findChestsForPlayer(String, String, int) -> Void
+NationsGUI.getActiveSkinOfPlayer(String, String) -> String
+NationsGUI.getEventPoints(String) -> Null
+NationsGUI.getFactionHomeInWorld(String, String) -> String
+NationsGUI.getFactionIdAtCoordonates(String, int, int, int) -> String
+NationsGUI.getFactionNameFromId(String) -> String
+NationsGUI.getModuleConstructionInfo(String, int, int, int, int) -> Tab
+NationsGUI.getMoney(String) -> Double
+NationsGUI.getNoelFactoryRegionBounds(String) -> Null
+NationsGUI.getPlayerRenderDistance(String) -> Integer
+NationsGUI.getServerType() -> String
+NationsGUI.getServerType(String) -> Integer
+NationsGUI.getToxicityTax(String) -> Double
+NationsGUI.getTradeSurchargeInfo(String, String) -> Tab
+NationsGUI.getTranslationLang() -> String
+NationsGUI.getTranslations() -> Map
+NationsGUI.hasEmbargo(String, String) -> Boolean
+NationsGUI.hasMoney(String, long) -> Boolean
+NationsGUI.hasNonGlobalWorldguardRegionAt(String, int, int, int) -> Boolean
+NationsGUI.hasPermissionPlayer(String, String) -> Boolean
+NationsGUI.hasPlayerIslandPermission(String, String) -> Boolean
+NationsGUI.hasPlayersInNoelFactoryRegion(String) -> Boolean
+NationsGUI.isCountryClaimAt(String, int, int, int) -> Boolean
+NationsGUI.isEntryDenied(String, double, double, double) -> Boolean
+NationsGUI.isExitDenied(String, double, double, double) -> Boolean
+NationsGUI.isInExtractionZone(String, int, int, int) -> Boolean
+NationsGUI.isMachineOnMagneticArea(String, Integer, Integer, Integer) -> Long
+NationsGUI.isPlayerGod(String) -> Boolean
+NationsGUI.isPlayerImmuniseFromMissile(String) -> Boolean
+NationsGUI.isPlayerInAssault(String, Integer, Integer) -> Boolean
+NationsGUI.isPlayerInCombat(String) -> Boolean
+NationsGUI.isWildernessAt(String, int, int, int) -> Boolean
+NationsGUI.logElectricToolBlockBreak(String, int, int, String, int, int, int) -> Void
+NationsGUI.logTombeExpired(String, String, String, int, int, int, Object[]) -> Void
+NationsGUI.logTombeRecovery(String, String, String, int, int, String, int, int, int) -> Void
+NationsGUI.ngCoinsPriceFor(String, int) -> Integer
+NationsGUI.openLootboxForPlayer(String, String, int, int, int, String, boolean) -> Void
+NationsGUI.payNGCoins(String, int, String, Runnable) -> Boolean
+NationsGUI.playerCanShootLaseSpartan(String) -> Boolean
+NationsGUI.playerHasNGPrime(String) -> Boolean
+NationsGUI.playerHasPremiumPlus(String) -> Boolean
+NationsGUI.playerHasSkinSync(String, String) -> Boolean
+NationsGUI.refreshBadgesSite(String, String) -> Void
+NationsGUI.registerBlockExplosion(String, Integer, Integer, Integer, Integer, Integer) -> Void
+NationsGUI.registerFactionsInteractableBlocks(int[], int[], int[]) -> Void
+NationsGUI.removeAllEventPoints(String) -> Null
+NationsGUI.removeEventPoint(String, int) -> Boolean
+NationsGUI.requestTombola(String) -> Void
+NationsGUI.sendErrorNotification(Player, String, String) -> Void
+NationsGUI.sendHawkEyeLog(String, String, String, String) -> Void
+NationsGUI.sendHawkEyeTypedLog(String, String, String, String) -> Void
+NationsGUI.sendLuckyPotionBonusPacketToForgePlayer(String) -> Null
+NationsGUI.sendValidNotification(Player, String, String) -> Void
+NationsGUI.sendZephyrNotification(Player, String, String, String, String, long) -> Void
+NationsGUI.setMoney(String, double) -> Void
+NationsGUI.spawnOffPlayer(String) -> Void
+NationsGUI.tagPlayerInCombat(String) -> Void
+NationsGUI.teleportPlayerToLocation(String, String, Integer, Integer, Integer, Float, Float) -> Void
+NationsGUI.teleportPlayersFromNoelFactory(String) -> Null
+NationsGUI.userCanShoot(String) -> Boolean
+NationsGUI.withdrawMoney(String, double) -> Boolean
+NationsJob.addPlayerSkill(String, String, int) -> Void
+NationsJob.addTraderPoint(String, int) -> Void
+NationsJob.canPlayerHaveDoubleLoot(String, String) -> Boolean
+NationsJob.canPlayerUseEnchant(String, int) -> Boolean
+NationsJob.getPlayerSkillLevel(String, String) -> Integer
+NationsJob.getPlayerSkillsInfos(String) -> Map
+NationsJob.getSkillNumericEffect(String, String, double) -> Null
+NationsJob.getTopPlayersSkills() -> Map
+NationsJob.grantSkillXpFromSourceAllSkills(String, String, String, int) -> Void
+NationsJob.storeEnergy(String, int) -> Void
+NationsJob.withdrawEnergy(String, int, int, int) -> Float
+NationsStats.getPlayerAchievements(String) -> List
+NationsToxicity.getMalusValue(String, String, double) -> Null
+NationsToxicity.getToxicityTierNumber(String) -> Null
+NationsToxicity.hasMalus(String, String) -> Boolean
+NationsUtils.addBattlePassPoints(String, String) -> Null
+NationsUtils.addBattlePassPointsForMultipleActions(String, String, int) -> Null
+NationsUtils.addBlockBreakResearch(String, int, int, String) -> Void
+NationsUtils.addFactionResearchValue(String, String, Double) -> Void
+NationsUtils.addItemFamilyResearch(String, String, int, int, double) -> Void
+NationsUtils.canCropTick(String, String, int, int) -> Boolean
+NationsUtils.canPlayerAccessMachineStorage(String, int, int, int) -> Boolean
+NationsUtils.canPlayerBypassT3RDForReplique(String, String, int, int, int) -> Boolean
+NationsUtils.canPlayerInteractBlock(String, int, int, int) -> Boolean
+NationsUtils.canPlayerInteractVehicle(String, String, double, double, double) -> Boolean
+NationsUtils.canPlayerOpenMachine(String, int, int, int) -> Boolean
+NationsUtils.canPlayerPlaceLiquid(String, int, int, int, boolean) -> Boolean
+NationsUtils.canPlayerShootOnPlayer(String, String) -> Boolean
+NationsUtils.canPlayerUseVehicle(String, String, boolean, boolean) -> Boolean
+NationsUtils.currentValue() -> Double
+NationsUtils.decreaseCorruption(String, String) -> Null
+NationsUtils.getCorruptionInfo() -> Null
+NationsUtils.getCountryLastBuiltSurface(String) -> Double
+NationsUtils.getCountryResearchLevel(String, String) -> Integer
+NationsUtils.getExpToGive(String, int) -> Integer
+NationsUtils.getPlayerRegionAuthorization(String, Location) -> String
+NationsUtils.playerGhostTransaction(String, int) -> Void
+NationsUtils.processVoriackDeath() -> Void
+NationsUtils.removePlayerBadge(String, String) -> Void
+NationsUtils.repairVehicle(String, int) -> Integer
+NationsUtils.withdrawGasInCoords(String, int, int, int) -> Float
+NationsUtils.withdrawPetrolInCoords(String, int, int, int) -> Float
+ServerBridge.getRemainingMissilePointsForPlayer(String) -> Integer
+ServerBridge.informMissileDestruction(String, String, int, int, int, int, boolean) -> Void
+ServerBridge.missileCanExplodeAt(String, String, int, int, int, int, boolean, int) -> Boolean
+ServerBridge.missileCanLaunchAt(String, String, int, int, int, int, boolean, int) -> Boolean
+ServerBridge.missileIsAuthorizedArmorAbility(String, int, int, int, int) -> Boolean
+ServerBridge.tagPlayerUserShoot(String) -> Void
+ServerBridge.turretCanDestroyMissile(String, String, int, int, int, String) -> Boolean
