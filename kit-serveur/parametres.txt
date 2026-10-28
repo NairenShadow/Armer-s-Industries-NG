@@ -1,0 +1,22 @@
+# ==========================================================
+#  Parametres de lancement du serveur (ShadowState-NG)
+#  Format : NOM=valeur  (pas d'espace autour du signe =)
+# ==========================================================
+
+# Chemin complet vers java. "auto" = cherche tout seul un Java 17 installe.
+JAVA=auto
+
+# Memoire vive donnee au serveur (G = Go).
+RAM_MIN=2G
+RAM_MAX=4G
+
+# DeltaHeight : monde de Y -64 a Y 319 (agent DeltaHeight.jar de DeltaBuild a mettre dans ce dossier).
+# Une fois des blocs poses sous 0 ou au-dessus de 255, ne plus jamais repasser a "non".
+DELTAHEIGHT=non
+
+# Redemarre tout seul le serveur s'il plante ou apres un "stop" (oui / non).
+REDEMARRAGE_AUTO=oui
+
+# Sauvegarde du monde a chaque demarrage, et nombre de sauvegardes gardees.
+SAUVEGARDE_AU_DEMARRAGE=oui
+SAUVEGARDES_A_GARDER=10

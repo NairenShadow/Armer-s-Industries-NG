@@ -1,0 +1,21 @@
+# Mods et dossiers du launcher NationsGlory a NE PAS mettre sur le serveur
+# (mods reserves au jeu sur PC : ils empechent le serveur de demarrer).
+# Liste issue du guide de Croux (etape 3-C). Un nom par ligne.
+1.6.4
+camerastudio
+saves-schematica-dummy
+all-u-want.jar
+CameraStudio.zip
+cefhost.jar
+legacyjavafixer-1.0.jar
+ngauth.jar
+ngbrowser.jar
+ngminimap.jar
+ngopti.jar
+NGProbe.jar
+ngvoice.jar
+ngworldeditcui.jar
+nimbus.jar
+recube-social.jar
+schematica-ng.jar
+zephyrui.jar

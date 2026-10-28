@@ -21,7 +21,11 @@ Un projet **Armer's Industries** (Armerdu59), partie *Serveur Minecraft* du **Pr
 | **SSNG-Iles** | Les **îles** NG (interface Îles du mod : création, visite, membres, permissions, sauvegardes) dans un monde dédié. | Non |
 | **SSNG-Machines** | Pétrolier, extracteur de gaz, réservoirs, silos, **ateliers** (recettes), **entreprises** et marchés, `/recharge`, vitrine des machines. | Non |
 
-## Installation
+## Monter un serveur NG de zéro
+
+Le dossier **[`kit-serveur`](kit-serveur/LISEZ-MOI.md)** contient tout pour monter un serveur NationsGlory complet sur ton PC en 10 minutes : script qui récupère les mods dans ton jeu NG, lancement avec recherche automatique de Java 17, sauvegardes, réglages conseillés. Il ne contient ni les mods NG ni le `server.jar` (ils ne nous appartiennent pas) : le guide explique où les prendre.
+
+## Installation (serveur déjà monté)
 
 1. Télécharge les `.jar` de la dernière version (onglet **Releases** de ce dépôt).
 2. Copie-les dans `plugins/` de ton serveur NG. Pour les ponts : `SSNG-Ponts.jar` **et** tous les `SSNG-Pont-*.jar`.
