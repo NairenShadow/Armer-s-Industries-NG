@@ -2,7 +2,7 @@ name: SSNG-Core
 version: 1.0.0
 main: fr.armersindustries.ssng.core.SSNG
 author: Armerdu59 (Armer's Industries)
-website: https://github.com/Armerdu59/ShadowState-NG
+website: https://github.com/NairenShadow/Armer-s-Industries-NG
 description: Boite a outils commune du pack ShadowState-NG (reseau NationsGUI, marqueurs, zones et colis NG).
 commands:
   ssng:
